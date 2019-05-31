@@ -84,5 +84,7 @@ if(UNIX)
     )
 endif(UNIX)
 if(WIN32)
-    message("Y'a pas encore")
+#    message("Y'a pas encore")
+    set(CMAKE_MODULE_PATH FindIrrlicht.cmake)
 endif(WIN32)
+
